@@ -4,8 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pet_store</title>
+    <!-- tailwind css URL -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+   <style>
+     .sora {
+        font-family: "Sora", serif;
+    }
+
+   </style>
 </head>
-<body>
-    
+<body class="sora">
+    <header class="max-w-[1200px] mx-auto">
+        <!-- start nav section -->
+        <nav class="flex justify-between md:mt-4 items-center">
+            <div class="flex gap-2 items-center pl-5">
+                <img class="h-7 w-7" src="Images/logo-header.png" alt="">
+                <h2 class="text-lg">Browse<span>4</span>Pets</h2>
+            </div>
+
+            <div class="text-lg invisible md:visible">
+                <ul class="flex gap-5">
+                    <li>Find a pet</li>
+                    <li>Breeds</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+
+            <div class="space-x-3 text-lg invisible md:visible pr-10 lg:pr-3">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-bell"></i>
+                <button class="ring-2 ring-[#FFDC26] px-2 py-1 rounded-md">Login</button>
+                <button class="bg-[#FFDC26] px-2 py-2 rounded-lg">Register</button> 
+                 
+            </div>                
+            <div class="md:hidden h-8 w-12 pr-6"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+
+        <!-- start banner section -->
+         
+    </header>
+
+    <main class="max-w-[1200px] mx-auto">
+
+        <!-- categories section -->
+         <section class="px-5 lg:p-5">
+            <h1 class="text-4xl pb-5">Browse By Categories</h1>
+            <div class="grid sm:grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-6">
+                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                    <div class="">
+                        <img class="bg-white p-2 rounded-full" src="Images/dog-cartoon.png" alt="dog-carton">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-2xl pb-1">Dog</h3>
+                        <h6 class="text-base">3 items</h6>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                    <div class="">
+                        <img class="bg-white p-2 rounded-full" src="Images/fish-cartoon.png" alt="dog-carton">
+                    </div>
+                    <div class="">
+                        <h3 class="font-semibold text-2xl pb-1">Dog</h3>
+                        <h6 class="text-base">3 items</h6>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                    <div class="">
+                        <img class="bg-white p-2 rounded-full" src="Images/cat-cartoon.png" alt="dog-carton">
+                    </div>
+                    <div class="">
+                        <h3 class="font-semibold text-2xl pb-1">Dog</h3>
+                        <h6 class="text-base">3 items</h6>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                    <img class="bg-white p-2 rounded-full" src="Images/bird-cartoon.png" alt="dog-carton">
+                    <div class="">
+                        <h3 class="font-semibold text-2xl pb-1">Dog</h3>
+                        <h6 class="text-base">3 items</h6>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                    <div class="">
+                        <img class="bg-white p-2 rounded-full" src="Images/dog-cartoon.png" alt="dog-carton">
+                    </div>
+                    <div class="">
+                        <h3 class="font-semibold text-2xl pb-1">Dog</h3>
+                        <h6 class="text-base">3 items</h6>
+                    </div>
+                </div>
+                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                    <div class="">
+                        <img class="bg-white p-2 rounded-full" src="Images/rabbit-cartoon.png" alt="dog-carton">
+                    </div>
+                    <div class="">
+                        <h3 class="font-semibold text-2xl pb-1">Dog</h3>
+                        <h6 class="text-base">3 items</h6>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+    </main>
 </body>
 </html>
