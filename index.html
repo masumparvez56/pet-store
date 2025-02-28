@@ -21,12 +21,12 @@
    </style>
 </head>
 <body class="sora">
-    <header class="max-w-[lg:1200px] mx-auto">
+    <header class="max-w-[1200px] mx-auto">
         <!-- start nav section -->
-        <nav class="flex justify-between md:mt-4 items-center">
+        <nav class="flex justify-between md:mt-4 items-center xl:pr-4">
             <div class="flex gap-2 items-center pl-5">
                 <img class="h-7 w-7" src="Images/logo-header.png" alt="">
-                <h2 class="text-lg">Browse<span>4</span>Pets</h2>
+                <h2 class="text-lg">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
             </div>
 
             <div class="text-lg invisible md:visible">
@@ -41,24 +41,25 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-regular fa-bell"></i>
                 <button class="ring-2 ring-[#FFDC26] px-2 py-1 rounded-md">Login</button>
-                <button class="bg-[#FFDC26] px-2 py-2 rounded-lg">Register</button> 
-                <span class="md:hidden"><i class="fa-solid fa-bars"></i> </span>  
-            </div>                
+                <button class="bg-[#FFDC26] p-2 rounded-lg">Register</button> 
+            </div>  
+            <span class="md:hidden mr-8"><i class="fa-solid fa-bars"></i> </span>  
+              
             
-            <div class=" md:hidden h-8 w-12 pr-6"><i class="fa-solid fa-bars"></i></div>
         </nav>
 
         <!-- start banner section -->
          
     </header>
 
-    <main class="max-w-[1200px] mx-auto">
+    <main>
 
         <!-- categories section -->
-         <section class="px-5 lg:p-5 place-items-center sm:place-items-start">
+         <section class="sm:px-5 lg:p-5 max-w-[1200px] mx-auto pb-5">
             <h1 class="text-4xl pb-5">Browse By Categories</h1>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-6">
-                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 lg:w-full">
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center gap-4 p-6 rounded-lg w-full h-56">
+            
                     <div class="">
                         <img class="bg-white p-2 rounded-full" src="Images/dog-cartoon.png" alt="dog-carton">
                     </div>
@@ -67,7 +68,7 @@
                         <h6 class="text-base">3 items</h6>
                     </div>
                 </div>
-                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center gap-4 p-6 rounded-lg w-full h-56">
                     <div class="">
                         <img class="bg-white p-2 rounded-full" src="Images/fish-cartoon.png" alt="dog-carton">
                     </div>
@@ -76,7 +77,7 @@
                         <h6 class="text-base">3 items</h6>
                     </div>
                 </div>
-                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center gap-4 p-6 rounded-lg w-full h-56">
                     <div class="">
                         <img class="bg-white p-2 rounded-full" src="Images/cat-cartoon.png" alt="dog-carton">
                     </div>
@@ -85,14 +86,14 @@
                         <h6 class="text-base">3 items</h6>
                     </div>
                 </div>
-                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center gap-4 p-6 rounded-lg w-full h-56">
                     <img class="bg-white p-2 rounded-full" src="Images/bird-cartoon.png" alt="dog-carton">
                     <div class="">
                         <h3 class="font-semibold text-2xl pb-1">Dog</h3>
                         <h6 class="text-base">3 items</h6>
                     </div>
                 </div>
-                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center gap-4 p-6 rounded-lg w-full h-56">
                     <div class="">
                         <img class="bg-white p-2 rounded-full" src="Images/dog-cartoon.png" alt="dog-carton">
                     </div>
@@ -101,7 +102,7 @@
                         <h6 class="text-base">3 items</h6>
                     </div>
                 </div>
-                <div class="bg-[#F9DF8A] h-56 w-44 flex flex-col justify-center items-center gap-10 rounded-lg">
+                <div class="bg-[#F9DF8A] flex flex-col justify-center items-center gap-4 p-6 rounded-lg w-full h-56">
                     <div class="">
                         <img class="bg-white p-2 rounded-full" src="Images/rabbit-cartoon.png" alt="dog-carton">
                     </div>
@@ -112,6 +113,168 @@
                 </div>
             </div>
          </section>
+
+         <!-- pet product section -->
+          <section class="bg-[#FFF9F4] py-4 pb-5">
+            <div  class="max-w-[1200px] mx-auto pb-3">
+                
+                <div class="p-6">
+
+                    <h1 class="text-4xl pb-5">Trending Pet Products</h1>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
+
+                    <!-- pet benner section -->
+                    <div class="col-span-2 lg:col-auto bg-[#F9DF8A] rounded-lg w-full">
+                        <div class="p-5 space-y-5 relative">
+                                <h1 class="font-bold text-3xl">T-shirt for dogs</h1>
+                                <p class="text-xs">Discover a world of treats, toys and<br>essentials hand picked for</p>
+                                <button class="text-xl bg-white px-4 py-2 rounded-lg">Shop Now</button>
+                            
+                            <div class="absolute lg:top-12 lg:right-0 -top-14 right-0">
+                                    <img class="p-3 w-48 lg:w-56" src="Images/cute-pet-small.png" alt="">
+                            </div>
+                        </div>
+                            
+
+                    </div>
+
+                    <!-- pet item section -->
+                    <div class="col-span-2 grid grid-cols-3 gap-4">
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/dog-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/fish-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/bird-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/rabbit-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/bird-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/mouse-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/dog-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/fish-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+
+                        <div class="flex bg-[#FFFFFF] shadow-sm p-4 gap-4 rounded-md">
+                            <div class="">
+                                <img class="bg-[#FFF9F4] p-3 rounded-md" src="Images/rabbit-cartoon.png" alt="fish">
+                            </div>
+                            <div class="">
+                                <div class="flex gap-3">
+                                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                    <p>4.6</p>
+                                </div>
+                                <h1 class="font-semibold">Pet Bed</h1>
+                                <h6>$39.99</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>    
+
+
+                </div>
+
+            </div>
+          </section>
 
     </main>
 </body>
